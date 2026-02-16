@@ -79,4 +79,11 @@ membuat dulu repository baru tapi untuk
 itur read me nya jangan di aktifkan, nanti di setelah membuat nya akan langsung di arahkan ke perintah ...or create a new repository atau or push an exiting repository.....
 
 
-3 kasus 3
+3 kasus yang ketiga ketika kita dan orang lain mengedit atau menambahkan code yang sama
+
+nah ketika di git kita akan di push itu pasti git push nya gagal
+caranya cek dulu dengan menjalankan :
+git fetch = melihat progres di remote nya sudah sampai mana/
+setelah kitu kita pull dulu dengan menjalankan 
+git pull = ambil dulu dari remote nya, nanti ada merge konflik
+nanti perbaiki isi file nya, lalu sudah bisa di push
